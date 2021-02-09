@@ -28,7 +28,9 @@ hiding completed tasks.
 
 ## Milestone
 - [x] Environment Setup.
-- [ ] Render dummy tasks.
+- [x] Render tasks.
+  - [x] Declare a `render` function that takes in the tasks as args.
+  - [x] Show the list of tasks on the DOM.
 - [ ] Display tasks left.
 - [ ] Create form to add tasks.
 - [ ] Create filter input to filter tasks.
