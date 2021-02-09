@@ -26,7 +26,7 @@ const render = (tasks) => {
     // Check if the array is empty
     if (tasks.length > 0) {
         // If array is not empty, show the content
-        tasks.map(task => {
+        tasks.forEach(task => {
             const taskList = document.createElement('p')
             taskList.textContent = task.title
             taskEl.appendChild(taskList)
