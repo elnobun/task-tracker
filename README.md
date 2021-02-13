@@ -26,11 +26,22 @@ hiding completed tasks.
 - User can filter tasks.
 - User can toggle task as completed
 
-## Milestone
+## Milestones
 - [x] Environment Setup.
-- [x] Render tasks.
-  - [x] Declare a `render` function that takes in the tasks as args.
-  - [x] Show the list of tasks on the DOM.
-- [ ] Display tasks left.
-- [ ] Create form to add tasks.
-- [ ] Create filter input to filter tasks.
+
+> HTML Markup
+- [x] Header.
+- [x] Filters Section.
+    - [x] search tasks.
+    - [x] sort tasks.
+    - [x] toggle tasks.
+- [x] Task List Section.
+    - [x] add tasks.
+    - [ ] edit tasks.
+    - [ ] delete tasks.
+
+> Styling
+- [x] SCSS base setup.
+
+> Javascript
+
