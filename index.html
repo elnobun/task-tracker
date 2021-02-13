@@ -6,22 +6,63 @@
         <title>Task Tracker</title>
         <link rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
     </head>
     <body>
-        <div class="task">
-            <div class="header">
+        <div class="grid">
+            <!-- HEADER -->
+            <header class="header">
                 <div class="container">
                     <hgroup>
                         <h1 class="header__title">Task Tracker</h1>
                         <h2 class="header__subtitle">Keep track of your Tasks and never forget</h2>
                     </hgroup>
                 </div>
-            </div>
-            <!--<i class="material-icons">add</i>-->
+            </header>
 
+            <!-- FILTERS SECTION -->
+            <section class="filters">
+                <div class="container">
+                    <label for="search-task" class="search">
+                        <input type="text" id="search-task" class="input__search" placeholder="Search Tasks"/>
+                    </label>
+
+                    <label for="filter-by">
+                        <select id="filter-by">
+                            <option value="byCompleted">By Completed</option>
+                            <option value="alphabetically">Sort Alphabetically</option>
+                        </select>
+                    </label>
+
+                    <label for="hide-completed">
+                        <input type="checkbox" id="hide-completed"/>Hide Completed
+                    </label>
+                </div>
+            </section>
+
+            <!-- TASK MESSAGE -->
+            <section class="message">
+                <div class="container">
+                    <h3>You have 4 Tasks left</h3>
+                </div>
+            </section>
+
+            <!-- TASK LISTS & INPUT -->
             <section class="content">
-                <div id="tasks"></div>
+                <div class="container">
+                    <ul id="tasks">
+                        <li class="task__list">Food shopping</li>
+                        <li class="task__list">Meeting at School</li>
+                        <li class="task__list">Doctors Appointment</li>
+                        <li class="task__list">Go To Gym</li>
+                    </ul>
+
+                    <form id="form">
+                        <label>
+                            <input type="text" name="taskText" class="form__input" placeholder="Enter Your Task">
+                        </label>
+                        <button class="form__button">Add Task</button>
+                    </form>
+                </div>
             </section>
         </div>
 

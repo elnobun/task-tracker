@@ -1,23 +1,2 @@
-/* Variables */
-$background-color: #f0f2f5;
-
-/* Global Reset */
-* {
-  box-sizing: border-box;
-  //margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.6rem;
-  background-color: $background-color;
-}
-
-h1,h2,h3 {
-  margin: 0;
-}
+@import "settings/variables";
+@import "settings/base";
