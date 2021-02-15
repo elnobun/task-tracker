@@ -49,4 +49,6 @@ hiding completed tasks.
 - [x] Render the tasks to the DOM.
     - [x] Loop through the array to see if there are tasks.
     - [x] If tasks are available, show the tasks. Otherwise, display the message: "No task available."
-    - [ ] Show the incomplete tasks left with message: You have ? tasks left
+    - [x] Wire up the search functionality for searching tasks.
+    - [x] Dynamically Show the incomplete tasks left with message: "You have ? tasks left"
+    - [ ] Hide completed tasks by toggling "Hide Completed" checkbox 
