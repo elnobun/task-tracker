@@ -10,7 +10,7 @@
     <body>
         <div class="grid">
             <!-- HEADER -->
-            <header class="header">
+            <header id="header">
                 <div class="container">
                     <hgroup>
                         <h1 class="header__title">Task Tracker</h1>
@@ -20,7 +20,7 @@
             </header>
 
             <!-- FILTERS SECTION -->
-            <section class="filters">
+            <section id="filters">
                 <div class="container">
                     <label for="search-task" class="search">
                         <input type="text" id="search-task" class="input__search" placeholder="Search Tasks"/>
@@ -40,12 +40,12 @@
             </section>
 
             <!-- TASK MESSAGE -->
-            <section class="message">
-                <h3>You have 4 Tasks left</h3>
+            <section id="summary">
+<!--                <h3>You have 4 Tasks left</h3>-->
             </section>
 
             <!-- TASK LISTS -->
-            <section class="content">
+            <section id="content">
                 <ul id="tasks"></ul>
             </section>
 
