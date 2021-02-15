@@ -44,4 +44,9 @@ hiding completed tasks.
 - [x] SCSS base setup.
 
 > Javascript
-
+- [x] Declare an array variable for tasks objects.
+- [x] All tasks object should be unique with a `text`, `note` and `completed` property.
+- [x] Render the tasks to the DOM.
+    - [x] Loop through the array to see if there are tasks.
+    - [x] If tasks are available, show the tasks. Otherwise, display the message: "No task available."
+    - [ ] Show the incomplete tasks left with message: You have ? tasks left
