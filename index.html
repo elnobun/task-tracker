@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Task Tracker</title>
-        <link rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <div class="grid">
@@ -41,29 +41,23 @@
 
             <!-- TASK MESSAGE -->
             <section class="message">
-                <div class="container">
-                    <h3>You have 4 Tasks left</h3>
-                </div>
+                <h3>You have 4 Tasks left</h3>
             </section>
 
-            <!-- TASK LISTS & INPUT -->
+            <!-- TASK LISTS -->
             <section class="content">
-                <div class="container">
-                    <ul id="tasks">
-                        <li class="task__list">Food shopping</li>
-                        <li class="task__list">Meeting at School</li>
-                        <li class="task__list">Doctors Appointment</li>
-                        <li class="task__list">Go To Gym</li>
-                    </ul>
-
-                    <form id="form">
-                        <label>
-                            <input type="text" name="taskText" class="form__input" placeholder="Enter Your Task">
-                        </label>
-                        <button class="form__button">Add Task</button>
-                    </form>
-                </div>
+                <ul id="tasks"></ul>
             </section>
+
+            <!-- TASK INPUT -->
+            <footer class="footer">
+                <form id="form">
+                    <label>
+                        <input type="text" name="taskText" class="form__input" placeholder="Enter Your Task">
+                    </label>
+                    <button class="form__button">Add Task</button>
+                </form>
+            </footer>
         </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"
